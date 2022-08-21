@@ -4,10 +4,10 @@
     - POST
     - PUT
     - DELETE
+    - OPTIONS
   
   - Interceptors:
     - globals
-    - by route
 
   - Middlewares
     - cors

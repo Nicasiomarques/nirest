@@ -1,4 +1,4 @@
-import { nirest } from './index.js'
+import { nirest } from './main.js'
 import { bodyParserJson } from './bodyParserJson.js'
 import { cors } from './cors.js'
 
@@ -13,3 +13,4 @@ app.get('/app', (_request, response) => {
 app.post('/app', (_request, response) => {
   response.status(200).json({ foo: 'bar' })
 })
+ 
